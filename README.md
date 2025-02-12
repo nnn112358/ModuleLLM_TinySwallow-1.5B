@@ -151,8 +151,8 @@ https://pulsar2-docs.readthedocs.io/en/latest/<br>
 * M5Stack Module LLMでFunction Callingを実行<br>
 https://qiita.com/motoh_qiita/items/1b0882e507e803982753<br>
 
-*SakanaAI/TinySwallow-1.5B-Instruct<br>
+ * SakanaAI/TinySwallow-1.5B-Instruct<br>
 https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct<br>
 
-*新手法「TAID」を用いた小規模日本語言語モデル「TinySwallow-1.5B」の公開<br>
+ * 新手法「TAID」を用いた小規模日本語言語モデル「TinySwallow-1.5B」の公開<br>
 https://sakana.ai/taid-jp/<br>
