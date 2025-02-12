@@ -26,6 +26,7 @@ userPC$ huggingface-cli download --resume-download SakanaAI/TinySwallow-1.5B-Ins
 userPC$ sudo docker run -it --net host -v $PWD:/data pulsar2:3.3
 ```
 
+
 ```
 root# pulsar2 llm_build --input_path TinySwallow-1.5B-Instruct --output_path TinySwallow-1.5B-Instruct-AX620E --kv_cache_len 1023 --hidden_state_type bf16 --prefill_len 128 --chip AX620E
 <frozen quant.ppq.quantization.analyse.graphwise>:110: FutureWarning: Decorating classes is deprecated and will be disabled in future versions. You should only decorate functions or methods. To preserve the current behavior of class decoration, you can directly decorate the `__init__` method and nothing else.
@@ -85,6 +86,7 @@ building llm post layer   ━━━━━━━━━━━━━━━━━━
 2025-02-12 18:57:35.194 | SUCCESS  | yamain.command.llm_build:llm_build:199 - build llm model done!
 2025-02-12 18:59:43.463 | SUCCESS  | yamain.command.llm_build:llm_build:380 - check llm model done!
 ```
+モデル変換終わるまで一時間かかった。
 
 ```
 root@Thinkpad-T14:/data# chmod +x ./tools/fp32_to_bf16
