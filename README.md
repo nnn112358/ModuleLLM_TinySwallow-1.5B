@@ -138,7 +138,12 @@ root@Thinkpad-T14:/data# tree ./TinySwallow
 └── tinyswallow_tokenizer.py
 ```
 
+# Reference
 
+* Pulsar2:4. Large Model Compilation (Experimental Stage)
+https://pulsar2-docs.readthedocs.io/en/latest/
 
+* M5Stack Module LLMでFunction Callingを実行
+https://qiita.com/motoh_qiita/items/1b0882e507e803982753
 
 
