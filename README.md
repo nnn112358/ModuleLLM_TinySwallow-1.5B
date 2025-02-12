@@ -92,7 +92,7 @@ root@Thinkpad-T14:/data# chmod +x ./tools/embed_process.sh
 
 ```
 root@Thinkpad-T14:/data# tree ./TinySwallow
-├── TinySwallow-1.5B-Instruct-AX620E
+├── TinySwallow-1.5B-Instruct-AX620E    #Pulsar2で変換したものです。
 │   ├── model.embed_tokens.weight.bfloat16.bin
 │   ├── model.embed_tokens.weight.float32.bin
 │   ├── model.embed_tokens.weight.npy
@@ -127,7 +127,7 @@ root@Thinkpad-T14:/data# tree ./TinySwallow
 │   └── qwen2_post.axmodel
 ├── main_prefill
 ├── run_tinyswallow_1.5B_ax630c.sh
-├── tinyswallow_tokenizer
+├── tinyswallow_tokenizer        #tinyswallowのjsonファイルです
 │   ├── added_tokens.json
 │   ├── config.json
 │   ├── generation_config.json
