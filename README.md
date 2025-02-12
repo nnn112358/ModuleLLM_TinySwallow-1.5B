@@ -140,6 +140,7 @@ root@Thinkpad-T14:/data# tree ./TinySwallow
 └── tinyswallow_tokenizer.py
 ```
 
+## run_tinyswallow_1.5B_ax630c.shの編集
 ```run_tinyswallow_1.5B_ax630c.sh
 ./main_prefill \
 --template_filename_axmodel "TinySwallow-1.5B-Instruct-AX620E/qwen2_p128_l%d_together.axmodel" \    ##フォルダ名の変更
