@@ -6,6 +6,8 @@ https://x.com/nnn112358/status/1889658632536559726
 
 ## Model Convert
 
+このログは、TinySwallow-1.5Bモデルを AX620E チップ向けに最適化・変換する過程を示しています。
+
 ```bash
 userPC$  git clone https://github.com/AXERA-TECH/ax-llm-build.git
 Cloning into 'ax-llm-build'...
@@ -21,11 +23,12 @@ Resolving deltas: 100% (28/28), done.
 userPC$ mkdir -p TinySwallow-1.5B-Instruct
 userPC$ huggingface-cli download --resume-download SakanaAI/TinySwallow-1.5B-Instruct --local-dir TinySwallow-1.5B-Instruct
 ```
+Hugging Faceからモデルをダウンロードしています。
 
 ```
 userPC$ sudo docker run -it --net host -v $PWD:/data pulsar2:3.3
 ```
-
+Docker環境の起動:
 
 ```
 root# pulsar2 llm_build --input_path TinySwallow-1.5B-Instruct --output_path TinySwallow-1.5B-Instruct-AX620E --kv_cache_len 1023 --hidden_state_type bf16 --prefill_len 128 --chip AX620E
