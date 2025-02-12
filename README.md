@@ -140,7 +140,22 @@ root@Thinkpad-T14:/data# tree ./TinySwallow
 └── tinyswallow_tokenizer.py
 ```
 
-
+```sh
+./main_prefill \
+--template_filename_axmodel "TinySwallow-1.5B-Instruct-AX620E/qwen2_p128_l%d_together.axmodel" \    ##フォルダ名の変更
+--axmodel_num 28 \    #axmodelの数にあわせて変更
+--tokenizer_type 2 \    
+--filename_tokenizer_model "http://localhost:8080" \
+--bos 0 --eos 0 \
+--filename_post_axmodel "TinySwallow-1.5B-Instruct-AX620E/qwen2_post.axmodel" \    ##フォルダ名の変更
+--filename_tokens_embed "TinySwallow-1.5B-Instruct-AX620E/model.embed_tokens.weight.bfloat16.bin" \    #フォルダ名の変更
+--tokens_embed_num 151936 \    #Pulsar2 llmbuild起動時 Config->vocab_size=151936
+--tokens_embed_size 1536 \    #Pulsar2 llmbuild起動時 Config->hidden_size=1536
+--use_mmap_load_embed 1 \
+--live_print 1 \
+--continue 1 \
+--prompt "$1"
+```
 
 
 # Reference
