@@ -88,4 +88,57 @@ root@Thinkpad-T14:/data# chmod +x ./tools/fp32_to_bf16
 root@Thinkpad-T14:/data# chmod +x ./tools/embed_process.sh
 ```
 
+## Module-LLMにコピーします。
+
+```
+root@Thinkpad-T14:/data# tree ./TinySwallow
+├── TinySwallow-1.5B-Instruct-AX620E
+│   ├── model.embed_tokens.weight.bfloat16.bin
+│   ├── model.embed_tokens.weight.float32.bin
+│   ├── model.embed_tokens.weight.npy
+│   ├── qwen2_p128_l0_together.axmodel
+│   ├── qwen2_p128_l10_together.axmodel
+│   ├── qwen2_p128_l11_together.axmodel
+│   ├── qwen2_p128_l12_together.axmodel
+│   ├── qwen2_p128_l13_together.axmodel
+│   ├── qwen2_p128_l14_together.axmodel
+│   ├── qwen2_p128_l15_together.axmodel
+│   ├── qwen2_p128_l16_together.axmodel
+│   ├── qwen2_p128_l17_together.axmodel
+│   ├── qwen2_p128_l18_together.axmodel
+│   ├── qwen2_p128_l19_together.axmodel
+│   ├── qwen2_p128_l1_together.axmodel
+│   ├── qwen2_p128_l20_together.axmodel
+│   ├── qwen2_p128_l21_together.axmodel
+│   ├── qwen2_p128_l22_together.axmodel
+│   ├── qwen2_p128_l23_together.axmodel
+│   ├── qwen2_p128_l24_together.axmodel
+│   ├── qwen2_p128_l25_together.axmodel
+│   ├── qwen2_p128_l26_together.axmodel
+│   ├── qwen2_p128_l27_together.axmodel
+│   ├── qwen2_p128_l2_together.axmodel
+│   ├── qwen2_p128_l3_together.axmodel
+│   ├── qwen2_p128_l4_together.axmodel
+│   ├── qwen2_p128_l5_together.axmodel
+│   ├── qwen2_p128_l6_together.axmodel
+│   ├── qwen2_p128_l7_together.axmodel
+│   ├── qwen2_p128_l8_together.axmodel
+│   ├── qwen2_p128_l9_together.axmodel
+│   └── qwen2_post.axmodel
+├── main_prefill
+├── run_tinyswallow_1.5B_ax630c.sh
+├── tinyswallow_tokenizer
+│   ├── added_tokens.json
+│   ├── config.json
+│   ├── generation_config.json
+│   ├── special_tokens_map.json
+│   ├── tokenizer.json
+│   ├── tokenizer_config.json
+│   └── vocab.json
+└── tinyswallow_tokenizer.py
+```
+
+
+
+
 
