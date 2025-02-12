@@ -2,7 +2,7 @@
 
 ## Result
 
-![GjlqHW8b0AA7GHC](https://github.com/user-attachments/assets/ce784410-c75e-48bc-9fb2-de75e7c82b11)
+https://x.com/nnn112358/status/1889658632536559726
 
 
 ```bash
