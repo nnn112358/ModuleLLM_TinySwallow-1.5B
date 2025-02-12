@@ -1,6 +1,8 @@
 # ModuleLLM_TinySwallow-1.5B
 
+## Result
 
+![GjlqHW8b0AA7GHC](https://github.com/user-attachments/assets/ce784410-c75e-48bc-9fb2-de75e7c82b11)
 
 
 ```bash
@@ -138,12 +140,19 @@ root@Thinkpad-T14:/data# tree ./TinySwallow
 └── tinyswallow_tokenizer.py
 ```
 
+
+
+
 # Reference
 
-* Pulsar2:4. Large Model Compilation (Experimental Stage)
-https://pulsar2-docs.readthedocs.io/en/latest/
+* Pulsar2:4. Large Model Compilation (Experimental Stage)<br>
+https://pulsar2-docs.readthedocs.io/en/latest/<br>
 
-* M5Stack Module LLMでFunction Callingを実行
-https://qiita.com/motoh_qiita/items/1b0882e507e803982753
+* M5Stack Module LLMでFunction Callingを実行<br>
+https://qiita.com/motoh_qiita/items/1b0882e507e803982753<br>
 
+*SakanaAI/TinySwallow-1.5B-Instruct<br>
+https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct<br>
 
+*新手法「TAID」を用いた小規模日本語言語モデル「TinySwallow-1.5B」の公開<br>
+https://sakana.ai/taid-jp/<br>
